@@ -1,0 +1,37 @@
+MANJULA YUVARAJA@LAPTOP-NUS6DS79 MINGW64 ~/OneDrive/Desktop/last hour
+$ git clone https://github.com/ManjuYuva/f.git
+Cloning into 'f'...
+warning: You appear to have cloned an empty repository.
+
+MANJULA YUVARAJA@LAPTOP-NUS6DS79 MINGW64 ~/OneDrive/Desktop/last hour
+$ cd f\
+>
+
+MANJULA YUVARAJA@LAPTOP-NUS6DS79 MINGW64 ~/OneDrive/Desktop/last hour/f (main)
+$ cd f
+bash: cd: f: No such file or directory
+
+MANJULA YUVARAJA@LAPTOP-NUS6DS79 MINGW64 ~/OneDrive/Desktop/last hour/f (main)
+$ git add india.txt
+
+MANJULA YUVARAJA@LAPTOP-NUS6DS79 MINGW64 ~/OneDrive/Desktop/last hour/f (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   india.txt
+
+
+MANJULA YUVARAJA@LAPTOP-NUS6DS79 MINGW64 ~/OneDrive/Desktop/last hour/f (main)
+$ git commit -m "first message"
+[main (root-commit) d2169e0] first message
+  git clone https://github.com/ManjuYuva/f.git
+	Line 11: $ cd f
+	Line 15: $ git add india.txt
+	Line 18: $ git status
+	Line 29: $ git commit -m "first message"
+	Line 35: $ git push
+	Line 44: $ git pull
